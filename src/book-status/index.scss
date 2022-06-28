@@ -1,0 +1,23 @@
+.book-status {
+  width: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .borrow-count {
+    border-right: 1px solid rgba(128, 128, 128, 0.4);
+    padding: 0 2rem;
+  }
+  .love-count {
+    border-right: 1px solid rgba(128, 128, 128, 0.4);
+    padding: 0 2rem;
+  }
+  .status {
+    padding: 0 2rem;
+    div {
+      color: white;
+      background-color: rgb(169, 147, 126);
+      border-radius: 50%;
+      padding: 0.8rem 0.5rem;
+    }
+  }
+}

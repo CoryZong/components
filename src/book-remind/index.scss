@@ -1,0 +1,23 @@
+h4,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+.book-remind {
+  .book-container {
+    width: 385px;
+    display: flex;
+    padding: 1rem;
+  }
+  .book-info {
+    padding: 1rem 1.5rem;
+    h4 {
+      margin-bottom: 1.5rem;
+    }
+    p {
+      color: rgba(0, 0, 0, 0.4);
+      font-weight: 600;
+    }
+  }
+}
