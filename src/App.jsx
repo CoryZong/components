@@ -1,14 +1,13 @@
 import BookStatus from "./book-status";
 import BookStars from "./book-stars";
 import BookRemind from "./book-remind";
+import { SliderComponent } from "./slider";
+import "./index.scss";
 
 function App() {
   return (
-    <div className="App">
-      <h1>Homepage</h1>
-      <BookStatus />
-      <BookStars />
-      <BookRemind />
+    <div className="app">
+      <SliderComponent />
     </div>
   );
 }

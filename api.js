@@ -24,7 +24,7 @@ export const list = [
 ];
 
 //可以取書囉
-let list1 = [
+export const list1 = [
   {
     id: "1",
     pic: "111",
